@@ -4,6 +4,7 @@ import Home from './components/HomePage';
 import About from './components/About';
 import News from './components/News';
 import Navbar from './components/CustomNavbar';
+import Todo from './components/Todo';
 import './App.css';
 
 
@@ -16,7 +17,7 @@ class App extends Component {
           <Route exact path = "/" component = {Home}/>
           <Route  path = "/about" component = {About}/>
           <Route  path = "/news" component = {News}/>
-
+          <Route path = "/todo" component = {Todo} />
         </div>
       </Router>
 

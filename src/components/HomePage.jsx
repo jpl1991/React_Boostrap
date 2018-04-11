@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import {Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
 import './HomePage.css';
@@ -33,7 +33,6 @@ class HomePage extends Component {
 					</Col>
 				 </Row>
             </Grid>
-
         );
     }
 }

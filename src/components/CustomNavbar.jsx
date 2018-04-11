@@ -6,7 +6,7 @@ import './CustomNavbar.css';
 export default class CustomNavbar extends React.Component {
 	render() {
 		return (
-			<Navbar default collapseOnselect>
+			<Navbar default collapseonselect = "true">
 				<Navbar.Header>
 					<Navbar.Brand>
 						<Link to = "/">CodeLife </Link> 
@@ -23,6 +23,9 @@ export default class CustomNavbar extends React.Component {
 						</NavItem>
 						<NavItem eventKey = {3} componentClass = {Link} href = "/news" to="/news">
 							News
+						</NavItem>
+						<NavItem eventKey = {4} componentClass = {Link} href = "/todo" to="/todo">
+							Todo
 						</NavItem>
 					</Nav>
 				</Navbar.Collapse>
