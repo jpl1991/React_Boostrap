@@ -30,7 +30,9 @@ export default class Todo extends React.Component {
 
 	}
 	removeTodo(id){
-		console.log("removeing: ", id);
+		this.setState({
+			todos:this.state.todos.filter((todo, index)=>todo.id!==id)
+		});
 	}
 
 

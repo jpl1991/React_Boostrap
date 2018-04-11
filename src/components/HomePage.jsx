@@ -11,7 +11,7 @@ class HomePage extends Component {
             		<h2>Welcome to My first Boostrap Website</h2>
             		<p>This is how to build website with React, React-Router&React-Bootstrap</p>
             		<Link to = '/about'>
-            			<Button byStyle = 'primay'>About</Button>
+            			<Button bystyle = 'primay'>About</Button>
             		</Link>
             	</Jumbotron>
 
